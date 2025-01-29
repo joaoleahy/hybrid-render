@@ -1,0 +1,187 @@
+\documentclass[aspectratio=169,xcolor=table]{beamer}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{csquotes}
+\usepackage{xcolor}
+\usepackage[portuguese]{babel}
+\usepackage[backend=biber,style=numeric]{biblatex}
+\addbibresource{Bibliografia.bib}
+
+% ------------------------------------------------
+% Tema do Beamer (exemplo de um tema customizado)
+% ------------------------------------------------
+\usetheme{DCC} % <-- Ajuste conforme seu tema ou estilo
+
+\graphicspath{{imgs/}{../resultados/}}
+\graphicspath{{imgs/}{../Figuras/}}
+
+\author[Chaves, Leahy]{%
+  \textbf{João Pedro Chaves} \\
+  \textbf{João Victor Leahy}
+}
+\title{Renderização Híbrida: Combinando o Melhor de Dois Mundos \\ \large{MATA65 - Computação Gráfica}}
+\institute{Universidade Federal da Bahia \\ Instituto de Computação}
+\date{\today}
+
+\begin{document}
+
+%-------------------------------------------------
+%  SLIDE DE TÍTULO
+%-------------------------------------------------
+\begin{frame}[plain,noframenumbering]
+    \titlepage
+\end{frame}
+
+%-------------------------------------------------
+%  SLIDE DE AGENDA
+%-------------------------------------------------
+\begin{frame}{Agenda}
+    \tableofcontents
+\end{frame}
+
+%=================================================
+\section{Introdução}
+%=================================================
+\begin{frame}{Introdução}
+    \begin{itemize}
+        \item \textbf{O que é renderização híbrida?}
+        \begin{itemize}
+            \item Combinação de técnicas de rasterização, computação e ray tracing para otimizar a qualidade visual e o desempenho em tempo real.
+            \item Utiliza as capacidades únicas de cada etapa do pipeline gráfico.
+        \end{itemize}
+        \item \textbf{Por que usar a renderização híbrida?}
+        \begin{itemize}
+            \item Equilibra qualidade de imagem com performance em tempo real, aproximando a qualidade do path tracing offline.
+            \item Permite modularidade e escalabilidade, adaptando-se às capacidades de hardware do usuário.
+            \item Aumenta a qualidade visual ao usar ray tracing para efeitos que a rasterização não consegue gerar de forma precisa.
+            \item Elimina a necessidade de soluções alternativas problemáticas (hacks) e algoritmos propensos a artefatos.
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+%=================================================
+\section{Técnicas e Etapas da Renderização Híbrida}
+%=================================================
+\begin{frame}{Visão Geral do Pipeline Híbrido}
+    \begin{itemize}
+        \item Renderização em espaço de objeto (object-space rendering)
+        \item Ray tracing para transparência e translucidez
+        \item Iluminação global (interreflexões difusas)
+        \item G-buffer
+        \item Sombras diretas (ray tracing ou rasterização)
+        \item Reflexos (ray tracing ou computação)
+        \item Iluminação direta (computação)
+        \item Mesclagem de reflexos e radiosidade
+        \item Pós-processamento
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Sombras}
+    \begin{itemize}
+        \item Ray tracing para sombras precisas com tratamento de sombras duras e suaves.
+        \item Utilização do G-buffer para reconstrução da posição da superfície no espaço do mundo.
+        \item Suporte para sombras transparentes com ray tracing recursivo através de superfícies transparentes.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Reflexos}
+    \begin{itemize}
+        \item Ray tracing para reflexos dinâmicos e complexos.
+        \item Lançamento de raios a partir do G-buffer, evitando ray tracing da visibilidade primária.
+        \item Reconstrução e filtragem multiestágio para escalar reflexos para resolução total.
+        \item Uso de amostragem estocástica e filtragem espaço-temporal para resultados mais precisos e uniformes.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Oclusão Ambiente e Transparência}
+    \begin{itemize}
+        \item \textbf{Oclusão Ambiente:}
+        \begin{itemize}
+            \item Ray tracing para oclusão ambiente de alta qualidade, livre das limitações das técnicas baseadas em rasterização.
+            \item Amostragem estocástica da função de oclusão e filtragem para redução de ruído.
+        \end{itemize}
+        \item \textbf{Transparência e Translucidez:}
+        \begin{itemize}
+            \item Ray tracing para calcular o transporte de luz em meios espessos.
+            \item Rastreamento de transições de interface e refrações realistas.
+            \item Parametrização em espaço de textura para estabilidade e previsibilidade.
+            \item Acumulação temporal para efeitos de translucidez.
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Iluminação Global}
+    \begin{itemize}
+        \item Soluções de iluminação difusa indireta sem pré-computação ou parametrização.
+        \item Uso de surfels distribuídos dinamicamente no espaço do mundo para acumulação ao longo do tempo.
+        \item Integração com oclusão ambiente de espaço de tela para compensar a falta de detalhes de alta frequência.
+    \end{itemize}
+\end{frame}
+
+%=================================================
+\section{Aplicações da Renderização Híbrida}
+%=================================================
+\begin{frame}{Aplicações}
+    \begin{itemize}
+        \item \textbf{Jogos:}
+        \begin{itemize}
+            \item Melhora a qualidade visual de sombras, reflexos, oclusão ambiente e outros efeitos.
+            \item Permite o uso de ray tracing para efeitos de transparência e translucidez.
+            \item Possibilita a renderização de iluminação global indireta em cenas dinâmicas.
+            \item Aumenta a precisão de efeitos como profundidade de campo (DoF) com semitransparências mais realistas.
+        \end{itemize}
+        \item \textbf{Outras aplicações:}
+        \begin{itemize}
+            \item Visualização arquitetônica, design de produtos, realidade virtual e aumentada.
+            \item Renderização de cenas dinâmicas com objetos e iluminação em mudança.
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+%=================================================
+\section{Otimização e Desafios}
+%=================================================
+\begin{frame}{Otimização e Desafios}
+    \begin{itemize}
+        \item \textbf{Importância da amostragem estocástica e filtragem:}
+        \begin{itemize}
+            \item Técnicas de acumulação temporal para melhorar a qualidade e estabilidade visual.
+            \item Utilização de mapas de amostragem adaptativos para direcionar mais amostras a regiões de maior complexidade visual.
+            \item Balanceamento entre qualidade e desempenho por meio do ajuste de orçamentos de raios e filtros.
+        \end{itemize}
+        \item \textbf{Desafios:}
+        \begin{itemize}
+            \item Gerenciamento de artefatos de ghosting devido à acumulação temporal.
+            \item Problemas de tiling (repetição) devido a máscaras de raio insuficientes.
+            \item Compensação para resultados enviesados de redes neurais em renderização estática.
+            \item Necessidade de mais pesquisa sobre gerenciamento de nível de detalhe para jogos de mundo aberto.
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+%=================================================
+\section{Conclusão}
+%=================================================
+\begin{frame}{Conclusão}
+    \begin{itemize}
+        \item A renderização híbrida é uma técnica poderosa para alcançar alta qualidade visual em tempo real.
+        \item Permite a combinação flexível de diferentes técnicas de renderização para obter os melhores resultados.
+        \item Continua a evoluir com avanços em hardware e algoritmos, abrindo novas possibilidades para jogos e outras aplicações.
+    \end{itemize}
+\end{frame}
+
+%=================================================
+\section{Referências}
+%=================================================
+\begin{frame}{Referências}
+    \begin{itemize}
+        \item \fullcite{BarreBrisebois2019}
+        \item \fullcite{Tan2020a}
+        \item \fullcite{Kuznetsov2024}
+    \end{itemize}
+\end{frame}
+
+\end{document}
