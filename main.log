@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.22)  2 FEB 2025 20:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.22)  3 FEB 2025 00:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1507,16 +1507,13 @@ Package pdftex.def Info: imgs/dcc.png  used on input line 37.
 
 {/usr/local/texlive/2024basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/us
 r/local/texlive/2024basic/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc} <./imgs/dcc.
-png>] (./main.toc)
-Overfull \vbox (26.21358pt too high) detected at line 44
- []
-
-[2
+png>] (./main.toc) [2
 
 ]
 LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
 55.
- (/usr/local/texlive/2024basic/texmf-dist/tex/latex/lm/ot1lmss.fd
+
+(/usr/local/texlive/2024basic/texmf-dist/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 5
@@ -1563,325 +1560,290 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 55.
  [3
 
-{/usr/local/texlive/2024basic/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
-
-! LaTeX Error: File `exemplo-cena-realista' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.64 \end{frame}
-                
-? 
-[4
-
-] [5
+{/usr/local/texlive/2024basic/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}] [4
 
 ]
-<imgs/pipeline.png, id=123, 1245.65375pt x 582.175pt>
+<imgs/pipeline.png, id=116, 1245.65375pt x 582.175pt>
 File: imgs/pipeline.png Graphic file (type png)
 <use imgs/pipeline.png>
-Package pdftex.def Info: imgs/pipeline.png  used on input line 86.
-(pdftex.def)             Requested size: 417.09227pt x 194.94058pt.
-
-Overfull \hbox (18.75368pt too wide) in paragraph at lines 86--86
- [] 
- []
-
+Package pdftex.def Info: imgs/pipeline.png  used on input line 77.
+(pdftex.def)             Requested size: 338.87796pt x 158.38713pt.
 LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 
-86.
+77.
+
 (/usr/local/texlive/2024basic/texmf-dist/tex/latex/lm/ts1lmss.fd
 File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-Overfull \vbox (49.0292pt too high) detected at line 86
- []
-
-[6
+) [5
 
 {/usr/local/texlive/2024basic/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc} <./imgs
-/pipeline.png>] [7
+/pipeline.png>] [6
 
 {/usr/local/texlive/2024basic/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/loc
 al/texlive/2024basic/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}]
-<imgs/shadow-filter.png, id=140, 1007.765pt x 675.52374pt>
+<imgs/shadow-filter.png, id=132, 1007.765pt x 675.52374pt>
 File: imgs/shadow-filter.png Graphic file (type png)
 <use imgs/shadow-filter.png>
-Package pdftex.def Info: imgs/shadow-filter.png  used on input line 107.
+Package pdftex.def Info: imgs/shadow-filter.png  used on input line 98.
 (pdftex.def)             Requested size: 290.81429pt x 194.94058pt.
 
-Overfull \vbox (13.9292pt too high) detected at line 107
+Overfull \vbox (13.9292pt too high) detected at line 98
  []
 
-[8
+[7
 
  <./imgs/shadow-filter.png>]
-<imgs/shadow-filtering.png, id=147, 1010.77625pt x 458.71375pt>
+<imgs/shadow-filtering.png, id=140, 1010.77625pt x 458.71375pt>
 File: imgs/shadow-filtering.png Graphic file (type png)
 <use imgs/shadow-filtering.png>
-Package pdftex.def Info: imgs/shadow-filtering.png  used on input line 116.
+Package pdftex.def Info: imgs/shadow-filtering.png  used on input line 107.
 (pdftex.def)             Requested size: 358.50229pt x 162.69403pt.
 
 
-Package natbib Warning: Citation `Schied2017' on page 9 undefined on input line
- 116.
+Package natbib Warning: Citation `Schied2017' on page 8 undefined on input line
+ 107.
 
-[9
+[8
 
  <./imgs/shadow-filtering.png>]
-<imgs/shadow-accumulation.png, id=154, 1144.275pt x 547.04375pt>
+<imgs/shadow-accumulation.png, id=147, 1144.275pt x 547.04375pt>
 File: imgs/shadow-accumulation.png Graphic file (type png)
 <use imgs/shadow-accumulation.png>
-Package pdftex.def Info: imgs/shadow-accumulation.png  used on input line 125.
+Package pdftex.def Info: imgs/shadow-accumulation.png  used on input line 116.
 (pdftex.def)             Requested size: 356.78189pt x 170.57161pt.
- [10
+ [9
 
  <./imgs/shadow-accumulation.png>]
-<imgs/transparent-shadow.png, id=161, 991.705pt x 603.25375pt>
+<imgs/transparent-shadow.png, id=154, 991.705pt x 603.25375pt>
 File: imgs/transparent-shadow.png Graphic file (type png)
 <use imgs/transparent-shadow.png>
-Package pdftex.def Info: imgs/transparent-shadow.png  used on input line 134.
+Package pdftex.def Info: imgs/transparent-shadow.png  used on input line 125.
 (pdftex.def)             Requested size: 320.45418pt x 194.94058pt.
 
-Overfull \vbox (13.37363pt too high) detected at line 134
+Overfull \vbox (13.37363pt too high) detected at line 125
  []
 
-[11
+[10
 
- <./imgs/transparent-shadow.png>] [12
+ <./imgs/transparent-shadow.png>] [11
 
 ]
-<imgs/reflections.png, id=173, 973.6375pt x 607.26875pt>
+<imgs/reflections.png, id=166, 973.6375pt x 607.26875pt>
 File: imgs/reflections.png Graphic file (type png)
 <use imgs/reflections.png>
-Package pdftex.def Info: imgs/reflections.png  used on input line 151.
+Package pdftex.def Info: imgs/reflections.png  used on input line 142.
 (pdftex.def)             Requested size: 312.53603pt x 194.94058pt.
 
-Overfull \vbox (13.37363pt too high) detected at line 151
+Overfull \vbox (13.37363pt too high) detected at line 142
  []
 
-[13
+[12
 
  <./imgs/reflections.png>]
-<imgs/reflections-pipeline.png, id=181, 1005.7575pt x 640.3925pt>
+<imgs/reflections-pipeline.png, id=173, 1005.7575pt x 640.3925pt>
 File: imgs/reflections-pipeline.png Graphic file (type png)
 <use imgs/reflections-pipeline.png>
-Package pdftex.def Info: imgs/reflections-pipeline.png  used on input line 160.
+Package pdftex.def Info: imgs/reflections-pipeline.png  used on input line 151.
 
-(pdftex.def)             Requested size: 378.42044pt x 240.94786pt.
+(pdftex.def)             Requested size: 258.91765pt x 164.85649pt.
+ [13
 
-Overfull \vbox (71.3809pt too high) detected at line 160
- []
-
-[14
-
- <./imgs/reflections-pipeline.png>] [15
+ <./imgs/reflections-pipeline.png>] [14
 
 {/usr/local/texlive/2024basic/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]
-<imgs/ambient-occlusion.png, id=196, 1074.0125pt x 900.36375pt>
+<imgs/ambient-occlusion.png, id=188, 1074.0125pt x 900.36375pt>
 File: imgs/ambient-occlusion.png Graphic file (type png)
 <use imgs/ambient-occlusion.png>
-Package pdftex.def Info: imgs/ambient-occlusion.png  used on input line 181.
+Package pdftex.def Info: imgs/ambient-occlusion.png  used on input line 172.
 (pdftex.def)             Requested size: 203.45813pt x 170.57161pt.
 
-Overfull \vbox (1.56023pt too high) detected at line 181
+Overfull \vbox (1.56023pt too high) detected at line 172
  []
 
-[16
+[15
 
- <./imgs/ambient-occlusion.png>] [17
+ <./imgs/ambient-occlusion.png>] [16
 
 ]
-<imgs/light-scattering-process.png, id=208, 1150.2975pt x 775.89874pt>
+<imgs/light-scattering-process.png, id=201, 1150.2975pt x 775.89874pt>
 File: imgs/light-scattering-process.png Graphic file (type png)
 <use imgs/light-scattering-process.png>
 Package pdftex.def Info: imgs/light-scattering-process.png  used on input line 
-202.
-(pdftex.def)             Requested size: 378.42044pt x 255.25415pt.
+193.
+(pdftex.def)             Requested size: 318.67209pt x 214.94151pt.
 
-Overfull \vbox (98.24277pt too high) detected at line 202
+Overfull \vbox (57.93013pt too high) detected at line 193
  []
 
-[18
+[17
 
  <./imgs/light-scattering-process.png>]
-<imgs/object-and-texture-space-transparency.png, id=215, 1148.29pt x 621.32124p
+<imgs/object-and-texture-space-transparency.png, id=208, 1148.29pt x 621.32124p
 t>
 File: imgs/object-and-texture-space-transparency.png Graphic file (type png)
 <use imgs/object-and-texture-space-transparency.png>
 Package pdftex.def Info: imgs/object-and-texture-space-transparency.png  used o
-n input line 211.
+n input line 202.
 (pdftex.def)             Requested size: 315.22879pt x 170.57161pt.
 
-Overfull \vbox (1.56023pt too high) detected at line 211
+Overfull \vbox (1.56023pt too high) detected at line 202
  []
 
-[19
+[18
 
  <./imgs/object-and-texture-space-transparency.png>]
-<imgs/object-space-ray-traced-transparency.png, id=223, 1006.76125pt x 484.8112
+<imgs/object-space-ray-traced-transparency.png, id=215, 1006.76125pt x 484.8112
 5pt>
 File: imgs/object-space-ray-traced-transparency.png Graphic file (type png)
 <use imgs/object-space-ray-traced-transparency.png>
 Package pdftex.def Info: imgs/object-space-ray-traced-transparency.png  used on
- input line 220.
+ input line 211.
 (pdftex.def)             Requested size: 354.21515pt x 170.57161pt.
- [20
+ [19
 
  <./imgs/object-space-ray-traced-transparency.png>]
-<imgs/ray-traced-translucency.png, id=230, 1018.80624pt x 632.3625pt>
+<imgs/ray-traced-translucency.png, id=223, 1018.80624pt x 632.3625pt>
 File: imgs/ray-traced-translucency.png Graphic file (type png)
 <use imgs/ray-traced-translucency.png>
 Package pdftex.def Info: imgs/ray-traced-translucency.png  used on input line 2
-29.
-(pdftex.def)             Requested size: 378.42044pt x 234.87747pt.
+20.
+(pdftex.def)             Requested size: 318.67209pt x 197.79613pt.
 
-Overfull \vbox (49.42049pt too high) detected at line 229
+Overfull \vbox (12.33914pt too high) detected at line 220
  []
 
-[21
+[20
 
- <./imgs/ray-traced-translucency.png>] [22
+ <./imgs/ray-traced-translucency.png>] [21
 
 ]
-<imgs/surfel-based-diffuse-interreflection.png, id=242, 1033.8625pt x 376.40625
-pt>
-File: imgs/surfel-based-diffuse-interreflection.png Graphic file (type png)
-<use imgs/surfel-based-diffuse-interreflection.png>
-Package pdftex.def Info: imgs/surfel-based-diffuse-interreflection.png  used on
- input line 252.
-(pdftex.def)             Requested size: 468.51512pt x 170.57161pt.
-
-Overfull \hbox (70.17653pt too wide) in paragraph at lines 252--252
- [] 
- []
-
-
-Overfull \vbox (11.2702pt too high) detected at line 252
- []
-
-[23
-
- <./imgs/surfel-based-diffuse-interreflection.png>]
-<imgs/surfel-comparacao.png, id=249, 1105.12875pt x 430.60875pt>
-File: imgs/surfel-comparacao.png Graphic file (type png)
-<use imgs/surfel-comparacao.png>
-Package pdftex.def Info: imgs/surfel-comparacao.png  used on input line 262.
-(pdftex.def)             Requested size: 378.42044pt x 147.44974pt.
- [24
-
- <./imgs/surfel-comparacao.png>] [25
-
-]
-<imgs/near-far-field.png, id=262, 1062.97125pt x 427.5975pt>
+<imgs/near-far-field.png, id=234, 1062.97125pt x 427.5975pt>
 File: imgs/near-far-field.png Graphic file (type png)
 <use imgs/near-far-field.png>
-Package pdftex.def Info: imgs/near-far-field.png  used on input line 282.
+Package pdftex.def Info: imgs/near-far-field.png  used on input line 243.
 (pdftex.def)             Requested size: 378.42044pt x 152.22552pt.
- [26
+ [22
 
  <./imgs/near-far-field.png>]
-<imgs/semi-transparencias.png, id=269, 1128.215pt x 401.5pt>
+<imgs/semi-transparencias.png, id=241, 1128.215pt x 401.5pt>
 File: imgs/semi-transparencias.png Graphic file (type png)
 <use imgs/semi-transparencias.png>
-Package pdftex.def Info: imgs/semi-transparencias.png  used on input line 292.
+Package pdftex.def Info: imgs/semi-transparencias.png  used on input line 252.
 (pdftex.def)             Requested size: 378.42044pt x 134.67027pt.
- [27
+[23
 
  <./imgs/semi-transparencias.png>]
-<imgs/mascara-raios-adaptativos.png, id=276, 1072.005pt x 560.0925pt>
+<imgs/mascara-raios-adaptativos.png, id=248, 1072.005pt x 560.0925pt>
 File: imgs/mascara-raios-adaptativos.png Graphic file (type png)
 <use imgs/mascara-raios-adaptativos.png>
 Package pdftex.def Info: imgs/mascara-raios-adaptativos.png  used on input line
- 301.
+ 261.
 (pdftex.def)             Requested size: 378.42044pt x 197.71039pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 301.
+(Font)              <10> on input line 261.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 301.
+(Font)              <7> on input line 261.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 301.
+(Font)              <5> on input line 261.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 301.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 261.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <7> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 301.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 261.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 301.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 261.
 
-Overfull \vbox (16.699pt too high) detected at line 301
+Overfull \vbox (16.699pt too high) detected at line 261
  []
 
-[28
+[24
 
- <./imgs/mascara-raios-adaptativos.png>] [29
+ <./imgs/mascara-raios-adaptativos.png>] [25
 
 ]
-<imgs/interacao-com-luz-objetos-dinamicos.png, id=288, 812.03375pt x 411.5375pt
+<imgs/interacao-com-luz-objetos-dinamicos.png, id=264, 812.03375pt x 411.5375pt
 >
 File: imgs/interacao-com-luz-objetos-dinamicos.png Graphic file (type png)
 <use imgs/interacao-com-luz-objetos-dinamicos.png>
 Package pdftex.def Info: imgs/interacao-com-luz-objetos-dinamicos.png  used on 
-input line 321.
+input line 281.
 (pdftex.def)             Requested size: 336.56644pt x 170.57161pt.
- [30
+ [26
 
  <./imgs/interacao-com-luz-objetos-dinamicos.png>]
-<imgs/insercao-objetos-dinamicos.png, id=294, 699.61375pt x 326.21875pt>
+<imgs/insercao-objetos-dinamicos.png, id=271, 699.61375pt x 326.21875pt>
 File: imgs/insercao-objetos-dinamicos.png Graphic file (type png)
 <use imgs/insercao-objetos-dinamicos.png>
 Package pdftex.def Info: imgs/insercao-objetos-dinamicos.png  used on input lin
-e 330.
+e 290.
 (pdftex.def)             Requested size: 378.42044pt x 176.45415pt.
 
-Overfull \vbox (6.88719pt too high) detected at line 330
+Overfull \vbox (6.88719pt too high) detected at line 290
  []
 
-[31
+[27
 
  <./imgs/insercao-objetos-dinamicos.png>]
-<imgs/comparacao-path-tracing.png, id=301, 947.54pt x 380.42125pt>
+<imgs/comparacao-path-tracing.png, id=278, 947.54pt x 380.42125pt>
 File: imgs/comparacao-path-tracing.png Graphic file (type png)
 <use imgs/comparacao-path-tracing.png>
-Package pdftex.def Info: imgs/comparacao-path-tracing.png  used on input line 3
-39.
+Package pdftex.def Info: imgs/comparacao-path-tracing.png  used on input line 2
+99.
 (pdftex.def)             Requested size: 378.42044pt x 151.9278pt.
- [32
+ [28
 
- <./imgs/comparacao-path-tracing.png>] [33
+ <./imgs/comparacao-path-tracing.png>] [29
 
 ]
+<imgs/surfel-based-diffuse-interreflection.png, id=289, 1033.8625pt x 376.40625
+pt>
 File: imgs/surfel-based-diffuse-interreflection.png Graphic file (type png)
 <use imgs/surfel-based-diffuse-interreflection.png>
 Package pdftex.def Info: imgs/surfel-based-diffuse-interreflection.png  used on
- input line 369.
-(pdftex.def)             Requested size: 468.51512pt x 170.57161pt.
+ input line 327.
+(pdftex.def)             Requested size: 435.03961pt x 158.38713pt.
 
-Overfull \hbox (70.17653pt too wide) in paragraph at lines 369--369
+Overfull \hbox (36.70102pt too wide) in paragraph at lines 327--327
  [] 
  []
 
+[30
 
-Overfull \vbox (11.2702pt too high) detected at line 369
- []
-
-[34
-
-]
+ <./imgs/surfel-based-diffuse-interreflection.png>]
+<imgs/surfel-comparacao.png, id=296, 1105.12875pt x 430.60875pt>
 File: imgs/surfel-comparacao.png Graphic file (type png)
 <use imgs/surfel-comparacao.png>
-Package pdftex.def Info: imgs/surfel-comparacao.png  used on input line 379.
+Package pdftex.def Info: imgs/surfel-comparacao.png  used on input line 337.
 (pdftex.def)             Requested size: 378.42044pt x 147.44974pt.
- [35
+ [31
 
-] [36
+ <./imgs/surfel-comparacao.png>] [32
 
-] [37
+]
+<imgs/metricas.png, id=308, 717.68124pt x 543.02875pt>
+File: imgs/metricas.png Graphic file (type png)
+<use imgs/metricas.png>
+Package pdftex.def Info: imgs/metricas.png  used on input line 362.
+(pdftex.def)             Requested size: 258.91765pt x 195.91277pt.
+
+Overfull \vbox (14.34581pt too high) detected at line 362
+ []
+
+[33
+
+ <./imgs/metricas.png>] [34
 
 ]
 
-LaTeX Warning: Empty bibliography on input line 422.
+LaTeX Warning: Citation 'BarreBrisebois2019' on page 35 undefined on input line
+ 384.
 
-[38
+
+LaTeX Warning: Citation 'Tan2020a' on page 35 undefined on input line 384.
+
+
+LaTeX Warning: Citation 'Kuznetsov2024' on page 35 undefined on input line 384.
+
+
+[35
 
 ]
 \tf@nav=\write7
@@ -1909,14 +1871,8 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 3E6F3251C6873368F0FCB3A1CEEFA977;2107
-(rerunfilecheck)             After:  395B4739FC793AF38A4CD736A9ACC13F;2107.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 9490A4EBC245422C8E0BB86883A52C62;2122.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                main
@@ -1927,53 +1883,28 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35824 strings out of 475567
- 704352 string characters out of 5777889
- 1935187 words of memory out of 5000000
- 57233 multiletter control sequences out of 15000+600000
- 639235 words of font info for 92 fonts, out of 8000000 for 9000
+ 35977 strings out of 475567
+ 706927 string characters out of 5777889
+ 1934187 words of memory out of 5000000
+ 57398 multiletter control sequences out of 15000+600000
+ 636451 words of font info for 91 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  101i,13n,107p,1072b,1790s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{Outline0.6.3.29} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.6.2.29} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.6.1.29} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.4.3.28} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.4.2.28} has been referenced but does not e
-xist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Outline0.4.1.28} has been referenced but does not e
-xist, replaced by a fixed one
-
-</usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr
-/local/texlive/2024basic/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/loca
-l/texlive/2024basic/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texl
-ive/2024basic/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2
-024basic/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2024ba
-sic/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2024basic/t
-exmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/local/texlive/2024basic/texmf-d
-ist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2024basic/texmf-dist
-/fonts/type1/public/lm/lmsso10.pfb></usr/local/texlive/2024basic/texmf-dist/fon
-ts/type1/public/lm/lmsso8.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/ty
-pe1/public/lm/lmsy10.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/p
-ublic/lm/lmsy8.pfb>
-Output written on main.pdf (38 pages, 7853816 bytes).
+</usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/lm/lmex10.pfb></u
+sr/local/texlive/2024basic/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/lo
+cal/texlive/2024basic/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/te
+xlive/2024basic/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive
+/2024basic/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2024
+basic/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/local/texlive/2024basic/
+texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2024basic/tex
+mf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/local/texlive/2024basic/texmf-d
+ist/fonts/type1/public/lm/lmsso8.pfb></usr/local/texlive/2024basic/texmf-dist/f
+onts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/
+type1/public/lm/lmsy8.pfb>
+Output written on main.pdf (35 pages, 7872521 bytes).
 PDF statistics:
- 435 PDF objects out of 1000 (max. 8388607)
- 313 compressed objects within 4 object streams
- 97 named destinations out of 1000 (max. 500000)
- 278 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 404 PDF objects out of 1000 (max. 8388607)
+ 286 compressed objects within 3 object streams
+ 85 named destinations out of 1000 (max. 500000)
+ 283 words of extra memory for PDF output out of 10000 (max. 10000000)
 

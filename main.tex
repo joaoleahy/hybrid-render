@@ -23,7 +23,7 @@
   \textbf{João Pedro Chaves} \\
   \textbf{João Victor Leahy}
 }
-\title{Renderização Híbrida: Combinando o Melhor de Dois Mundos \\ \large{MATA65 - Computação Gráfica}}
+\title{Renderização Híbrida: Combinando o Melhor de Dois Mundos}
 \institute{Universidade Federal da Bahia \\ Instituto de Computação}
 \date{\today}
 
@@ -54,15 +54,6 @@
     \end{itemize}
 \end{frame}
 
-\begin{frame}{Exemplo de Renderização Híbrida}
-    \begin{center}
-        \includegraphics[height=0.8\textheight]{exemplo-cena-realista}
-    \end{center}
-    \begin{center}
-        \small{Cena renderizada utilizando técnicas híbridas, demonstrando reflexos, sombras suaves e iluminação global}
-    \end{center}
-\end{frame}
-
 %=================================================
 \section{Conceitos Fundamentais}
 %=================================================
@@ -77,7 +68,7 @@
 
 \begin{frame}{Pipeline de Renderização Híbrida}
     \begin{center}
-        \includegraphics[height=0.8\textheight]{pipeline}
+        \includegraphics[height=0.65\textheight]{pipeline}
     \end{center}
     \begin{center}
         \small{G-Buffer (Raster) → Sombras Diretas (Ray Trace/Raster) → Iluminação Direta (Compute) → \\
@@ -152,7 +143,7 @@
 
 \begin{frame}{Pipeline de Processamento de Reflexos}
     \begin{center}
-        \includegraphics[width=0.95\textwidth]{reflections-pipeline}
+        \includegraphics[width=0.65\textwidth]{reflections-pipeline}
     \end{center}
     \begin{center}
         \small{Pipeline de reflexos: Amostragem de Importância → Ray Tracing → Reconstrução Espacial → Acumulação Temporal → Limpeza Bilateral}
@@ -193,7 +184,7 @@
 
 \begin{frame}{Processo de Espalhamento de Luz}
     \begin{center}
-        \includegraphics[width=0.95\textwidth]{light-scattering-process}
+        \includegraphics[width=0.8\textwidth]{light-scattering-process}
     \end{center}
     \begin{center}
         \small{Processo de espalhamento de luz em materiais: (a) reflexão direta, (b) espalhamento na superfície,\\
@@ -221,7 +212,7 @@
 
 \begin{frame}{Efeitos de Translucidez}
     \begin{center}
-        \includegraphics[width=0.95\textwidth]{ray-traced-translucency}
+        \includegraphics[width=0.8\textwidth]{ray-traced-translucency}
     \end{center}
     \begin{center}
         \small{Demonstração de translucidez com ray tracing em diferentes ângulos de visualização}
@@ -231,36 +222,6 @@
 %=================================================
 \section{Pipeline de Renderização}
 %=================================================
-\begin{frame}{Iluminação Global: Surfels para Resultados Dinâmicos}
-    \begin{itemize}
-        \item Surfels calculam iluminação indireta difusa sem pré-computação.
-        \item Surfels são alocados dinamicamente, baseados em cobertura e área dos pixels.
-        \item A irradiância é calculada por path tracing e acumulação temporal.
-    \end{itemize}
-    \begin{equation*}
-        x_{n+1} = \text{lerp}(x_n, x_{n+1}, k)
-    \end{equation*}
-\end{frame}
-
-\begin{frame}{Interreflexão Difusa Baseada em Surfels}
-    \begin{center}
-        \includegraphics[height=0.7\textheight]{surfel-based-diffuse-interreflection}
-    \end{center}
-    \begin{center}
-        \small{Demonstração de interreflexão difusa usando surfels: iluminação direta (esquerda) vs. iluminação global com surfels (direita)}
-    \end{center}
-\end{frame}
-
-\begin{frame}{Comparação de Técnicas de Iluminação Global}
-    \begin{center}
-        \includegraphics[width=0.95\textwidth]{surfel-comparacao}
-    \end{center}
-    \begin{center}
-        \small{Comparação: GTAO colorido (esquerda), iluminação global com surfels (centro),\\
-        e combinação de surfels com GTAO colorido (direita)}
-    \end{center}
-\end{frame}
-
 \begin{frame}{Profundidade de Campo: Combinando Ray Tracing e Pós-Processamento}
     \begin{itemize}
         \item O ray tracing resolve o problema de semi-transparência em objetos fora de foco.
@@ -286,8 +247,7 @@
         \includegraphics[width=0.95\textwidth]{semi-transparencias}
     \end{center}
     \begin{center}
-        \small{Comparação de técnicas para semi-transparências em silhuetas de objetos em primeiro plano:\\
-        (a) referência, (b) ray tracing, (c) pós-processamento, (d) híbrido}
+        \small{Comparação de técnicas para semi-transparências em silhuetas de objetos em primeiro plano}
     \end{center}
 \end{frame}
 
@@ -344,10 +304,8 @@
 \subsection{Sombras e Reflexos}
 \subsection{Oclusão Ambiente}
 \subsection{Transparência e Translucidez}
+\subsection{Iluminação Global}
 
-%=================================================
-\section{Iluminação Global}
-%=================================================
 \begin{frame}{Iluminação Global: Surfels para Resultados Dinâmicos}
     \begin{itemize}
         \item Surfels calculam iluminação indireta difusa sem pré-computação.
@@ -361,7 +319,7 @@
 
 \begin{frame}{Interreflexão Difusa Baseada em Surfels}
     \begin{center}
-        \includegraphics[height=0.7\textheight]{surfel-based-diffuse-interreflection}
+        \includegraphics[height=0.65\textheight]{surfel-based-diffuse-interreflection}
     \end{center}
     \begin{center}
         \small{Demonstração de interreflexão difusa usando surfels: iluminação direta (esquerda) vs. iluminação global com surfels (direita)}
@@ -392,9 +350,14 @@
         \item Atinge qualidade de path tracing offline em tempo real com alocação inteligente de raios.
         \item \textbf{Destaque:} A renderização híbrida pode ter um desempenho até 6x superior ao path tracing tradicional.
     \end{itemize}
-    % Espaço para tabelas de desempenho
+\end{frame}
+
+\begin{frame}{Métricas de Desempenho}
     \begin{center}
-        \framebox[0.8\textwidth]{\parbox{0.7\textwidth}{\centering [Tabelas: Métricas de Desempenho]}}
+        \includegraphics[width=0.65\textwidth]{metricas}
+    \end{center}
+    \begin{center}
+        \small{Comparação de desempenho entre GPUs Volta e Turing para diferentes técnicas.}
     \end{center}
 \end{frame}
 
@@ -407,18 +370,17 @@
         \item Há grande potencial para futuras aplicações e melhorias.
         \item A renderização híbrida é o futuro da renderização em tempo real.
     \end{itemize}
-    % Espaço para imagem futurística
-    \begin{center}
-        \framebox[0.8\textwidth]{\parbox{0.7\textwidth}{\centering [Imagem: Visão Futurística]}}
-    \end{center}
 \end{frame}
 
 %=================================================
 \section{Referências}
 %=================================================
-\begin{frame}[allowframebreaks]{Referências}
-    \nocite{*}
-    \printbibliography[heading=none]
+\begin{frame}{Referências}
+    \begin{itemize}
+        \item \fullcite{BarreBrisebois2019}
+        \item \fullcite{Tan2020a}
+        \item \fullcite{Kuznetsov2024}
+    \end{itemize}
 \end{frame}
 
 \end{document}

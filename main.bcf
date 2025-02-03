@@ -2372,6 +2372,9 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">Bibliografia.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
+    <bcf:citekey order="1" intorder="1">BarreBrisebois2019</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">Tan2020a</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">Kuznetsov2024</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
@@ -2403,14 +2406,4 @@
     </bcf:sort>
   </bcf:sortingtemplate>
   <!-- DATALISTS -->
-  <bcf:datalist section="0"
-                name="nty/global//global/global/global"
-                type="entry"
-                sortingtemplatename="nty"
-                sortingnamekeytemplatename="global"
-                labelprefix=""
-                uniquenametemplatename="global"
-                labelalphanametemplatename="global"
-                namehashtemplatename="global">
-  </bcf:datalist>
 </bcf:controlfile>
